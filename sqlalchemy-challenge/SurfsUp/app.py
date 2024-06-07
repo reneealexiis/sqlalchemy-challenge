@@ -119,6 +119,8 @@ def temp_stats(start, end=None):
 
     return jsonify(temp_stats_list)
 
+ 
 # Run the app
 if __name__ == '__main__':
     app.run(debug=True)
+
